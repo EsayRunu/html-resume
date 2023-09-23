@@ -1,0 +1,22 @@
+
+html {
+    background-color: #7895B2;
+    padding: 5px;
+}
+
+div {
+    padding: 10px;
+}
+
+#summary{
+    background-color: #F5EFE6;
+}
+
+#education, #experience  {
+    background-color: #E8DFCA;
+}
+
+#skills, #cerification {
+    background-color: #AEBDCA;
+}
+
