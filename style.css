@@ -2,6 +2,8 @@
 html {
     background-color: #7895B2;
     padding: 5px;
+    font-family: sans-serif;
+    color: #F5EFE6; 
 }
 
 div {
@@ -10,13 +12,37 @@ div {
 
 #summary{
     background-color: #F5EFE6;
+    color: #7895B2; 
 }
 
 #education, #experience  {
     background-color: #E8DFCA;
+    color: #7895B2; 
 }
 
 #skills, #cerification {
     background-color: #AEBDCA;
+    color: #F5EFE6;
 }
 
+.left-header {
+    width: 100px; 
+    vertical-align: top;
+}
+
+footer {
+    color: #F5EFE6;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+button {
+    border-color: #7895B2;
+    color:#7895B2;
+    height: 36px;
+    width: 150px;
+}
