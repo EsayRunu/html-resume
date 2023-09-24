@@ -7,26 +7,38 @@
     </head>
     <body>
         <div id="summary">
-            <h1>Anton Solovev</h1>
-            <img 
-                src="./assets/images/Anton Solovev photo.jpg"
-                height="150" 
-                alt="Anotn Solovev photo" />
-            <br>
-            <a href="./public/contact.html">Contact Me</a>
-            <h2>Summary</h2>
-            <p>Leading the vision, design and roadmap on one of feature teams through opportunities discovery and hypothesis testing.</p>
-            <p>I'm a problem solver, with the ability to learn new subjects quickly.
-            I strive to collaborate with others and be a team player.
-            I'm self-motivated and love thinking big and getting things done.
-            I face difficult challenges to learn and improve.</p>
+            <table>
+                <tr>
+                    <td>
+                        <h2>Summary</h2>
+                        <p>Leading the vision, design and roadmap on one of feature teams through opportunities discovery and hypothesis testing.</p>
+                        <p>I'm a problem solver, with the ability to learn new subjects quickly.
+                        I strive to collaborate with others and be a team player.
+                        I'm self-motivated and love thinking big and getting things done.
+                        I face difficult challenges to learn and improve.</p>    
+                    </td>
+                    <td>
+                        <img 
+                            src="./assets/images/Anton Solovev photo.jpg"
+                            alt="Anotn Solovev photo" />
+                        <br>
+                        <button 
+                            type="button" 
+                            onclick="window.location.href='./public/contact.html'">
+                                Contact Me 
+                        </button> 
+                    </td>
+
+                </tr>
+                <h1>Anton Solovev</h1>
+            </table>
         </div>
 
         <div id="experience">
             <h2>Work experience</h2>
             <table>
                 <tr>
-                    <td width="100" valign="top">
+                    <td class="left-header">
                         <br/>August 2022 - currently
                     </td>
                     <td>
@@ -45,7 +57,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td valign="top"><br />May 2022 - August 2022</td>
+                    <td class="left-header"><br />May 2022 - August 2022</td>
                     <td>
                         <h3>Bequant</h3>
                         Financial and Credit Brokering
@@ -62,7 +74,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td valign="top"><br />May 2019 - April 2022</td>
+                    <td class="left-header"><br />May 2019 - April 2022</td>
                     <td>
                         <h3>Sberbank</h3>
                         Banking
@@ -78,7 +90,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td valign="top"><br />May 2003 - May 2019</td>
+                    <td class="left-header"><br />May 2003 - May 2019</td>
                     <td>
                         <h3>Croc</h3>
                         System Integration, Software Development, Technological and Business Processes Automation, IT Consulting
@@ -99,7 +111,7 @@
         <h2>Education</h2>
         <table>
             <tr>
-                <td width="100" valign="top"><br />2001</td>
+                <td class="left-header"><br />2001</td>
                 <td>
                     <h3>National Research Nuclear University 'MEPhI", Moscow</h3>
                     Cybernetics, Automated systems and databases
@@ -112,10 +124,7 @@
             <h2>Skills</h2>
             <table>
                 <tr>
-                    <td width="150" align="center"><b>Soft Skills</b></td>
-                    <td width="150" align="center"><b>Hard Skills</b></td>
-                </tr>
-                <tr>
+                    <td class="left-header"><br />Soft Skills</td>
                     <td valign="top">
                         <ul>
                             <li>Negotiation</li>
@@ -126,10 +135,16 @@
                             <li>Analytical skills</li>
                         </ul>
                     </td>
+                </tr>
+                <tr>
+                    
+                    <td class="left-header"><br />Hard Skills</td>
                     <td valign="top">
                         <ul>
                             <li>BPMN</li>
                             <li>UML</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
                             <li>Java</li>
                             <li>SQL</li>
                             <li>XML</li>
@@ -147,14 +162,14 @@
             <h2>Certification</h2>
             <table>
                 <tr>
-                    <td width="100">2023</td>
+                    <td class="left-header"><br/>2023</td>
                     <td>
                         <h3>Scrum.org</h3>
                         Professional Scrum Product Owner
                     </td>
                 </tr>
                 <tr>
-                    <td>2020</td>
+                    <td class="left-header"><br/>2020</td>
                     <td>
                         <h3>Scrum.org</h3>
                         Prcofessional Scrum Master
@@ -164,7 +179,7 @@
         </div>
         <footer>
             <small>
-                <p align="center">Product Manager Anton Solovev</p>
+                <p>Product Manager Anton Solovev</p>
             </small>
         </footer>
     </body>
