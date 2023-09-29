@@ -1,28 +1,47 @@
 
-html {
+body {
     background-color: #7895B2;
-    padding: 5px;
     font-family: sans-serif;
     color: #F5EFE6; 
+    margin: 0;
 }
 
 div {
     padding: 10px;
 }
 
-#summary{
-    background-color: #F5EFE6;
-    color: #7895B2; 
+#main {
+    width: 90%;
+    margin-left: 5%;
+    padding: 0px;
 }
 
-#education, #experience  {
+#circle-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #7895B2;
+}
+
+#summary, #education, #certification {
+    background-color: #F5EFE6;
+    color: #7895B2;
+}
+
+#experience, #skills   {
     background-color: #E8DFCA;
     color: #7895B2; 
 }
 
-#skills, #cerification {
-    background-color: #AEBDCA;
-    color: #F5EFE6;
+.sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.scrollable {
+    position: relative;
+    padding: 0px;
 }
 
 .left-header {
@@ -35,14 +54,16 @@ footer {
     text-align: center;
 }
 
-img {
-    height: 150px;
-    width: 150px;
-}
-
 button {
     border-color: #7895B2;
     color:#7895B2;
     height: 36px;
     width: 150px;
+    transition: 0.15;
+}
+
+button:hover {
+    opacity: 0.7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
