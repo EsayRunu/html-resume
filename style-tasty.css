@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: "Tanker-Regular";
+    src: url('./assets/fonts/Tanker/Tanker-Regular.woff2') format('woff2'),
+         url('./assets/fonts/Tanker/Tanker-Regular.woff') format('woff'),
+         url('../assets/fonts/Tanker/Tanker-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Cabinet Grotesk";
+    src: url(./assets/fonts/CabinetGrotesk/CabinetGrotesk-Regular.otf) format("woff2"),
+         url(./assets/fonts/CabinetGrotesk/CabinetGrotesk-Regular.otf) format("woff"),
+         url(./assets/fonts/CabinetGrotesk/CabinetGrotesk-Regular.otf) format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal
+}
+
+h1, h2, h3 {
+    font-family: Tanker-Regular;
+    text-transform: lowercase;
+    font-weight: 10;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2, h3, h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+div {
+    padding: 24px;
+}
+
+main {
+    padding: 0px;
+    /* flex: 1; */
+    position: relative;
+}
+
+body {
+    font-family: Cabinet Grotesk;
+    background-color: rgb(112, 44, 99);
+    color: #F5EFE6; 
+    margin: 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.card {
+    background-color: #5f1350;
+    /* border: 5px solid white; */
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+} 
+
+.left {
+    float: left;
+    width: 80%;
+    padding: 0px;
+}
+
+.right {
+    float: right;
+    width: 15%;
+    padding: 0px;
+    margin-right: 24px;
+}
+
+.clear {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+#circle-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #F5EFE6;
+}
+
+
+#experience, #skills, #education, #certification {
+    /* background-color: #5f1350; */
+    background-color: rgb(112, 44, 99);
+}
+
+.scrollable {
+    position: relative;
+    padding: 0px;
+}
+
+table {
+    width: 100%;
+}
+
+.left-header {
+    width: 13%; 
+    vertical-align: top;
+    padding-right: 12px;
+}
+
+footer {
+    clear: both;
+    color: #F5EFE6;
+    text-align: center;
+}
+
+button {
+    font-family: Tanker-Regular;
+    font-size: 1.2rem;
+    border-color: #F5EFE6;
+    color:#5f1350;
+    height: 36px;
+    width: 150px;
+    transition: 0.15;
+}
+
+button:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
