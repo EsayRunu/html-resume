@@ -1,69 +1,120 @@
 
-body {
-    background-color: #7895B2;
-    font-family: sans-serif;
-    color: #F5EFE6; 
-    margin: 0;
+@font-face {
+    font-family: "Tanker-Regular";
+    src: url('./assets/fonts/Tanker/Tanker-Regular.woff2') format('woff2'),
+         url('./assets/fonts/Tanker/Tanker-Regular.woff') format('woff'),
+         url('../assets/fonts/Tanker/Tanker-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Cabinet Grotesk";
+    src: url(./assets/fonts/CabinetGrotesk/CabinetGrotesk-Regular.otf) format("woff2"),
+         url(./assets/fonts/CabinetGrotesk/CabinetGrotesk-Regular.otf) format("woff"),
+         url(./assets/fonts/CabinetGrotesk/CabinetGrotesk-Regular.otf) format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal
+}
+
+h1, h2 {
+    font-family: Tanker-Regular;
+    text-transform: lowercase;
+    font-weight: 10;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+li {
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
 div {
-    padding: 10px;
+    padding: 12px 24px;
 }
 
-#main {
-    width: 90%;
-    margin-left: 5%;
+main {
     padding: 0px;
 }
 
-#circle-photo {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 3px solid #7895B2;
-}
-
-#summary, #education, #certification {
-    background-color: #F5EFE6;
-    color: #7895B2;
-}
-
-#experience, #skills   {
-    background-color: #E8DFCA;
-    color: #7895B2; 
+body {
+    font-family: Cabinet Grotesk;
+    background-color: rgb(112, 44, 99);
+    color: #F5EFE6; 
+    margin: 0;
 }
 
 .sticky {
     position: sticky;
     top: 0px;
     z-index: 1;
+    padding: 0px;
+    background-color: #5f1350;
+    display: inline-flex;
+} 
+
+#circle-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #F5EFE6;
 }
 
-.scrollable {
-    position: relative;
-    padding: 0px;
+#experience, #skills, #education, #certification {
+    background-color: rgb(112, 44, 99);
+}
+
+table {
+    width: 100%;
 }
 
 .left-header {
-    width: 100px; 
+    width: 13%; 
     vertical-align: top;
+    padding-right: 12px;
+    padding-top: 5px;
+}
+
+span {
+    border: solid;
 }
 
 footer {
+    clear: both;
     color: #F5EFE6;
     text-align: center;
 }
 
 button {
-    border-color: #7895B2;
-    color:#7895B2;
+    font-family: Tanker-Regular;
+    font-size: 1.2rem;
+    border-color: #F5EFE6;
+    color:#5f1350;
     height: 36px;
     width: 150px;
     transition: 0.15;
 }
 
 button:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
